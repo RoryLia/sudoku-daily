@@ -4,7 +4,7 @@ import React from "react";
 function Cell({ row, col }) {
     return(
         <div className="cell">
-            //escrever código
+            {`${row}-${col}`}
         </div>
     );
 }
